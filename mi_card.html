@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/practicas/style.css">
+    <title>Mi Card</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+        }
+       
+        .encabezado{
+            height: 60px;
+            background:linear-gradient(180deg,#3A98B9,#E8D5C4);
+            text-align: center;
+            color:#E8D5C4;
+            padding: 10px; 
+           
+        }
+
+        .container{
+
+            background-color:#EEEEEE ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+      
+     
+        .container_foto img{
+            width: 100px;
+           height: auto;
+           margin: 10px ;
+           border-radius: 50%;
+            /* width: 100%; */
+        }
+        .nombre{
+            text-align: center;
+            width: 300px;
+            height: 40px;
+            padding: 5px;
+            border: 1px #3A98B9 solid;
+            border-radius: 20px;
+            background-color: #E8D5C4;
+        }
+
+        .cards{
+
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 10px 0px 0px 0px;
+            width: 100%;
+            padding: 10px;
+            background-color: #E8D5C4;
+        }
+     
+        .skils{
+            text-align: center;
+            background-color: skyblue;
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        footer{
+
+            background-color: #FFF1DC;
+            height: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        .redes_sociales a{
+
+            text-decoration: none;
+           
+            font-size: 30px;
+        }
+        .container_icon{
+
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container_principal">
+        <header class="encabezado">
+            <div class="title">
+                <h1>Ingeniero Mecatrónico</h1>
+            </div>
+            
+        </header>
+
+        <section class="container">
+            <div class="container_foto">
+               <img src="/imagenes/WhatsApp Image 2023-02-25 at 2.35.54 PM.jpeg" alt="foto_perfil">
+            </div>
+
+            <div class="nombre">
+                <h2>Marlon Mosquera Rivera</h2>
+            </div>
+
+            <div class="cards">
+                <div class="skils">
+                    <h2>Programacion</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sunt placeat repudiandae similique cupiditate, officiis neque ea facere adipisci vitae natus! Doloribus praesentium velit iste nesciunt et quae aspernatur adipisci.</p>
+                </div>
+                <div class="skils">
+                    <h2>Plc</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sunt placeat repudiandae similique cupiditate, officiis neque ea facere adipisci vitae natus! Doloribus praesentium velit iste nesciunt et quae aspernatur adipisci.</p>
+                </div>
+                <div class="skils">
+                    <h2>Electronica</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sunt placeat repudiandae similique cupiditate, officiis neque ea facere adipisci vitae natus! Doloribus praesentium velit iste nesciunt et quae aspernatur adipisci.</p>
+                </div>
+            </div>
+
+         
+        </section>
+
+        <footer class="redes_sociales">
+            <div class="container_icon">
+            <a href="#" class="icon-facebook2"></a>
+            <a href="#" class="icon-instagram"></a>
+            <a href="#" class="icon-whatsapp"></a>
+            </div>
+        </footer>
+
+
+    </div>
+
+</body>
+</html>
